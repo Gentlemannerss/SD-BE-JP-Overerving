@@ -1,6 +1,13 @@
 package nl.novi.javaprogrammeren;
 
+import nl.novi.javaprogrammeren.overerving.Tiger;
+
 public class AnimalMain {
+    public static void main(String[] args) {
+        Tiger t1 = new Tiger("Loui", 'M', true, "Tiger Habitat", "Friday", "China", 24);
+        System.out.println(t1);
+    }
+
     /*
     Het is traditie om overerving uit te leggen met behulp van dieren. Hier ontkomen jullie dus ook niet aan.
 
